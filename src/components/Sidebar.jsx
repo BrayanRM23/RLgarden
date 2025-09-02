@@ -5,113 +5,111 @@ const servicios = [
   { 
     id: 1, 
     nombre: "Jardinería", 
-    img: "/images/jardin1.jpg",
+    img: "/public/images/fuera12.jpg",
     descripcion: "Servicio completo de jardinería, desde el diseño hasta el mantenimiento."
   },
   { 
     id: 2, 
     nombre: "Poda de árboles", 
-    img: "/images/servicios/poda.jpg",
+    img: "/public/images/poda.webp",
     descripcion: "Poda profesional para mantener la salud y estética de tus árboles."
   },
-  { 
-    id: 3, 
-    nombre: "Paisajismo", 
-    img: "/images/servicios/paisajismo.jpg",
-    descripcion: "Diseño de paisajes únicos para jardines residenciales y empresariales."
-  },
+
   { 
     id: 5, 
-    nombre: "siembra y mantenimiento de prado", 
-    img: "/images/servicios/paisajismo.jpg",
-    descripcion: "Diseño de paisajes únicos para jardines residenciales y empresariales."
+    nombre: "Siembra y mantenimiento de prado", 
+    img: "/public/images/prado.jpg",
+    descripcion: "Instalación y mantenimiento de prados con césped siempre verde."
   },
   { 
     id: 6, 
-    nombre: "mantenimiento de zonas verdes", 
-    img: "/images/servicios/paisajismo.jpg",
-    descripcion: "Diseño de paisajes únicos para jardines residenciales y empresariales."
+    nombre: "Mantenimiento de zonas verdes", 
+    img: "/public/images/zonas.jpg",
+    descripcion: "Cuidado integral de zonas verdes para conservar su frescura y belleza."
   },
   { 
     id: 7, 
-    nombre: "compensacion de arboles", 
-    img: "/images/servicios/paisajismo.jpg",
-    descripcion: "Diseño de paisajes únicos para jardines residenciales y empresariales."
+    nombre: "Compensación de árboles", 
+    img: "/public/images/compe.jpg",
+    descripcion: "Cumplimiento ambiental con reforestación y compensación de árboles."
   },
   { 
     id: 8, 
-    nombre: "mantenimiento en unidades residenciales", 
-    img: "/images/servicios/paisajismo.jpg",
-    descripcion: "Diseño de paisajes únicos para jardines residenciales y empresariales."
+    nombre: "Mantenimiento en unidades residenciales", 
+    img: "/public/images/fuera30.jpg",
+    descripcion: "Gestión de jardines y zonas verdes en conjuntos y residenciales."
   },
   { 
     id: 9, 
-    nombre: "diseño de jardines", 
-    img: "/images/servicios/paisajismo.jpg",
-    descripcion: "Diseño de paisajes únicos para jardines residenciales y empresariales."
+    nombre: "Diseño de jardines", 
+    img: "/public/images/fuera4.jpg",
+    descripcion: "Diseños personalizados para jardines únicos y funcionales."
   },
   { 
     id: 10, 
-    nombre: "venta de tierra abonada y fertilizantes organicos", 
-    img: "/images/servicios/paisajismo.jpg",
-    descripcion: "Diseño de paisajes únicos para jardines residenciales y empresariales."
+    nombre: "Venta de tierra abonada y fertilizantes orgánicos", 
+    img: "/public/images/abono.jpg",
+    descripcion: "Productos naturales para nutrir y fortalecer tus plantas."
   },
   { 
     id: 11, 
-    nombre: "venta de plantas y palmas", 
-    img: "/images/servicios/paisajismo.jpg",
-    descripcion: "Diseño de paisajes únicos para jardines residenciales y empresariales."
+    nombre: "Venta de plantas y palmas", 
+    img: "/public/images/piedra11.jpg",
+    descripcion: "Amplia variedad de plantas y palmas listas para tu jardín."
   },
   { 
     id: 12, 
-    nombre: "diseño de jardinez de interiores", 
-    img: "/images/servicios/paisajismo.jpg",
-    descripcion: "Diseño de paisajes únicos para jardines residenciales y empresariales."
-  },{ 
+    nombre: "Diseño de jardines de interiores", 
+    img: "/public/images/into24.jpg",
+    descripcion: "Creación de jardines interiores que embellecen y purifican tu espacio."
+  },
+  { 
     id: 13, 
-    nombre: "construccion de jardines verticales", 
-    img: "/images/servicios/paisajismo.jpg",
-    descripcion: "Diseño de paisajes únicos para jardines residenciales y empresariales."
-  },{ 
+    nombre: "Construcción de jardines verticales", 
+    img: "/public/images/vertical4.jpg",
+    descripcion: "Muros verdes innovadores para interiores y exteriores."
+  },
+  { 
     id: 14, 
-    nombre: "instalaciones de riegos automaticos", 
-    img: "/images/servicios/paisajismo.jpg",
-    descripcion: "Diseño de paisajes únicos para jardines residenciales y empresariales."
-  },{ 
+    nombre: "Instalaciones de riegos automáticos", 
+    img: "/public/images/ariego.webp",
+    descripcion: "Sistemas de riego automatizados para mayor comodidad y ahorro."
+  },
+  { 
     id: 15, 
-    nombre: "mantenimiento de arboles frutales", 
-    img: "/images/servicios/paisajismo.jpg",
-    descripcion: "Diseño de paisajes únicos para jardines residenciales y empresariales."
+    nombre: "Mantenimiento de árboles frutales", 
+    img: "/public/images/afruta.webp",
+    descripcion: "Cuidado especializado para árboles frutales productivos."
   },
   { 
     id: 16, 
-    nombre: "fumigacion y fertilizacion", 
-    img: "/images/servicios/paisajismo.jpg",
-    descripcion: "Diseño de paisajes únicos para jardines residenciales y empresariales."
+    nombre: "Fumigación y fertilización", 
+    img: "/public/images/afumigacion.jpg",
+    descripcion: "Protección y nutrición de tus plantas con tratamientos eficaces."
   },
   { 
     id: 17, 
-    nombre: "poda y mantenimiento empresarial", 
-    img: "/images/servicios/paisajismo.jpg",
-    descripcion: "Diseño de paisajes únicos para jardines residenciales y empresariales."
+    nombre: "Poda y mantenimiento empresarial", 
+    img: "/public/images/fuera5.jpg",
+    descripcion: "Mantenimiento profesional de áreas verdes en empresas e instituciones."
   },
   { 
     id: 18, 
-    nombre: "reflejo de fondo", 
-    img: "/images/servicios/paisajismo.jpg",
-    descripcion: "Diseño de paisajes únicos para jardines residenciales y empresariales."
+    nombre: "Reflejo de fondo", 
+    img: "/public/images/acustico2.jpg",
+    descripcion: "Decoración natural que resalta la belleza de tus espacios."
   },
   { 
     id: 19, 
-    nombre: "asesoria ambiental", 
-    img: "/images/servicios/paisajismo.jpg",
-    descripcion: "Diseño de paisajes únicos para jardines residenciales y empresariales."
+    nombre: "Asesoría ambiental", 
+    img: "/public/images/asesoria.jpg",
+    descripcion: "Orientación experta en gestión y cuidado ambiental."
   },
   { 
     id: 20, 
-    nombre: "instalacion de prado sintetico", 
-    img: "/images/servicios/paisajismo.jpg",
-    descripcion: "Diseño de paisajes únicos para jardines residenciales y empresariales."
+    nombre: "Instalación de prado sintético", 
+    img: "/public/images/asintec.jpg",
+    descripcion: "Prado sintético de alta calidad para un verde perfecto todo el año."
   },
   // 🔥 Agrega aquí todos tus servicios con imágenes y descripciones
 ];

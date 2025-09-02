@@ -11,7 +11,7 @@ export default function HeroLeft({ onOpenServices, onOpenGardens }) {
           Ver Servicios
         </button>
         <button className="hero-btn" onClick={onOpenGardens}>
-          Jardines
+          RL Jardines
         </button>
       </div>
     </div>

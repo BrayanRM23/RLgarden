@@ -16,7 +16,7 @@ const gardens = [
       "/images/acustico8.jpg",
       "/images/acustico9.jpg",
     ],
-    descripcion: "Minimalismo y serenidad con piedras y arena rastrillada."
+    descripcion: "Un oasis con agua y vida que transmite frescura y calma."
   },
   { 
     id: 2,
@@ -27,7 +27,7 @@ const gardens = [
       "/images/colgante3.jpg",
       "/images/colgante4.jpg",
     ],
-    descripcion: "Vegetación exuberante y colorida, con ambiente natural."
+    descripcion: "Verde suspendido que transforma cualquier espacio en arte vivo."
   },
   { 
     id: 3,
@@ -39,7 +39,7 @@ const gardens = [
       "/images/vertical4.jpg",
       "/images/acustico4.jpg",
     ],
-    descripcion: "Ideal para espacios reducidos y muros verdes modernos."
+    descripcion: "Naturaleza en tus muros: moderno, elegante y lleno de vida."
   },
   { 
     id: 4,
@@ -60,7 +60,7 @@ const gardens = [
       "/images/piedra13.jpg",
       "/images/piedra14.jpg",
     ],
-    descripcion: "Diseños adaptados a casas y oficinas con luz controlada."
+    descripcion: "Equilibrio y armonía con el encanto minimalista de las piedras."
   },
   { 
     id: 5,
@@ -76,7 +76,7 @@ const gardens = [
       "/images/troncote.jpg",
       "/images/tronco7.jpg",
     ],
-    descripcion: "Diseños adaptados a casas y oficinas con luz controlada."
+    descripcion: "Creatividad natural: vida floreciendo en cada tronco."
   },
   { 
     id: 6,
@@ -114,7 +114,7 @@ const gardens = [
       "/images/fuera30.jpg",
       "/images/fuera31.jpg",
     ],
-    descripcion: "Diseños adaptados a casas y oficinas con luz controlada."
+    descripcion: "Espacios abiertos llenos de color, frescura y energía natural."
   },
   { 
     id: 7,
@@ -146,7 +146,7 @@ const gardens = [
       "/images/into24.jpg",
       "/images/into25.jpg",
     ],
-    descripcion: "Diseños adaptados a casas y oficinas con luz controlada."
+    descripcion: "Un rincón verde en casa que inspira paz y bienestar."
   },
 ];
 
@@ -171,7 +171,7 @@ export default function GardensSidebar({ isOpen, onClose }) {
   return (
     <div className={`gardens-sidebar ${isOpen ? "active" : ""}`}>
       <div className="gardens-sidebar-header">
-        <h2>Tipos de Jardines</h2>
+        <h2>RL Jardines</h2>
         <button className="gardens-close-btn" onClick={onClose}>✖</button>
       </div>
 
