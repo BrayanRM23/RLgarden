@@ -1,0 +1,37 @@
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* centra verticalmente */
+  gap: 15px; /* espacio pequeño entre logo y botones */
+  text-align: center;
+  padding: 20px;
+}
+
+
+.hero-logo {
+   max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* espacio entre botones */
+  margin-top: 10px;
+}
+
+.hero-btn {
+  background: #2e7d32;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.hero-btn:hover {
+  background: #1b5e20;
+}
