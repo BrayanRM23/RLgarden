@@ -4,6 +4,7 @@ import Sidebar from "./components/Sidebar"; // Sidebar de servicios
 import GardensSidebar from "./components/GardensSidebar"; // Nuevo sidebar de jardines
 import HeroLeft from "./components/HeroLeft";
 import Carousel from "./components/Caroulsel";
+import Footer from "./components/Footer"; // ✅ Importamos el footer
 import "./assets/styles.css";
 
 export default function App() {
@@ -26,6 +27,9 @@ export default function App() {
         />
         <Carousel />
       </div>
+
+      {/* ✅ Footer agregado */}
+      <Footer />
     </>
   );
 }
