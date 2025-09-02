@@ -5,7 +5,7 @@ const servicios = [
   { 
     id: 1, 
     nombre: "Jardinería", 
-    img: "/public/images/jardin1.jpg",
+    img: "/images/jardin1.jpg",
     descripcion: "Servicio completo de jardinería, desde el diseño hasta el mantenimiento."
   },
   { 
